@@ -1,0 +1,16 @@
+//View Binding Enable
+
+buildFeatures {
+        viewBinding true
+    }
+
+ //gif
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+
+
+//Theme Style
+
+    <style name="Progress_Dialog_Horizontal" parent="android:Theme.Holo.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
